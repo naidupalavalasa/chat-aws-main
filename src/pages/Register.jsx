@@ -65,7 +65,7 @@ await setDoc(doc(db, "userChats", res.user.uid), {});
   return (
     <div className="formContainer">
       <div className="formWrapper">
-        <span className="logo">Chat Me</span>
+        <span className="logo">Chat Box</span>
         <span className="title">Register</span>
         <form onSubmit={handleSubmit}>
           <input required type="text" placeholder="display name" />

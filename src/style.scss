@@ -15,7 +15,7 @@
   }
 }
 
-// FORM CONTAINER
+// FORM CONTAINER (Login/Register Page)
 .formContainer {
   background-image: url("bg2.png");
   background-color: #89c5d6;
@@ -24,10 +24,8 @@
   align-items: center;
   justify-content: center;
 
-
   .formWrapper {
-    back
-    background: rgba(255, 255, 255, 0.95);
+    background-color: rgba(239, 245, 248, 0.95);
     padding: 30px 80px;
     border-radius: 20px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
@@ -37,14 +35,14 @@
     align-items: center;
 
     .logo {
-      color: #6b5b95;
+      color: #5d5b8d;
       font-weight: bold;
-      font-size: 28px;
+      font-size: 24px;
     }
 
     .title {
-      color: #6b5b95;
-      font-size: 14px;
+      color: #5d5b8d;
+      font-size: 12px;
     }
 
     form {
@@ -53,26 +51,28 @@
       gap: 15px;
 
       input {
-        padding: 12px;
+        padding: 15px;
         border: none;
-        border-radius: 8px;
         width: 250px;
-        background-color: #f0f0f0;
+        border-radius: 8px;
         border-bottom: 2px solid #a7bcff;
+        background-color: #f0f0f0;
+
         &::placeholder {
           color: #999;
         }
       }
 
       button {
-        background-color: #6b5b95;
+        background-color: #7b96ec;
         color: white;
         padding: 10px;
         font-weight: bold;
         border: none;
-        border-radius: 8px;
         cursor: pointer;
+        border-radius: 8px;
         transition: background 0.3s;
+
         &:hover {
           background-color: #5a4c80;
         }
@@ -100,13 +100,14 @@
   }
 }
 
-// CHAT HOME PAGE
+// HOME (Chat Page)
 .home {
-  background: linear-gradient(135deg, #a1c4fd, #c2e9fb); // Blue gradient
+  background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+
   .container {
     border: 1px solid #dcdcdc;
     border-radius: 15px;
@@ -284,22 +285,14 @@
             display: flex;
             flex-direction: column;
             gap: 5px;
-      
+
             p {
-              background-color: #8da4f1;  // Soft Blue
+              background-color: #8da4f1;
               padding: 10px 20px;
               border-radius: 0px 10px 10px 10px;
               max-width: max-content;
-              color: white;  // Ensures text is readable against the background
+              color: white;
             }
-            // p {
-            //   background-color: #ffffff;
-            //   padding: 10px 15px;
-            //   border-radius: 12px 12px 12px 0;
-            //   font-size: 15px;
-            //   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            //   max-width: max-content;
-            // }
 
             img {
               width: 250px;
@@ -374,4 +367,5 @@
     }
   }
 }
+
 

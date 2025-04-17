@@ -28,7 +28,7 @@ const Login = () => {
           <input type="email" placeholder="email" />
           <input type="password" placeholder="password" />
           <button>Sign in</button>
-          {err && <span>Invalid User Credentials</span>}
+          {err && <span class="color:red,font-weight: bold">Invalid User Credentials</span>}
         </form>
         <p>You don't have an account? <Link to="/register">Register</Link></p>
       </div>
